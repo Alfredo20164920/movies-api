@@ -12,7 +12,7 @@ export const MainLayout: FC<Props> = ({children, title}) => {
       {/* NAV */}
       <Navbar />
       {/* MAIN CONTENT */}
-      <main className="px-16 py-10 border">
+      <main className="px-16 py-10">
         {children}
       </main>
     </>
